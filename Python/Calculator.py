@@ -17,7 +17,7 @@ while True:
     print("4. Div ")
     print("5. Mod ")
 
-    choice = input("Please enter your choice (1/2/3/4/5) : ")
+    choice = input("Please enter your choice : ")
 
     if choice in ('1', '2', '3', '4', '5'):
         num1 = float(input("Please enter first number : "))
@@ -40,6 +40,7 @@ while True:
 
         next_calculation = input("Continue to y and Exit to n : (y/n) : ")
         if next_calculation == "n":
+            print("Exit")
             break
 
     else:
